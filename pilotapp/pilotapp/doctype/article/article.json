@@ -1,0 +1,91 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-12-19 12:47:04.484538",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "articlename",
+  "author",
+  "isbn",
+  "column_break_ined",
+  "image",
+  "description",
+  "status",
+  "section_break_d9kv",
+  "publisher"
+ ],
+ "fields": [
+  {
+   "fieldname": "articlename",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "ArticleName",
+   "reqd": 1
+  },
+  {
+   "fieldname": "image",
+   "fieldtype": "Attach Image",
+   "label": "Image"
+  },
+  {
+   "fieldname": "author",
+   "fieldtype": "Data",
+   "label": "Author"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Text",
+   "label": "Description"
+  },
+  {
+   "fieldname": "isbn",
+   "fieldtype": "Data",
+   "label": "ISBN"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Issued\nAvailable"
+  },
+  {
+   "fieldname": "publisher",
+   "fieldtype": "Data",
+   "label": "Publisher"
+  },
+  {
+   "fieldname": "column_break_ined",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_d9kv",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "image_field": "image",
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-12-19 15:31:20.530456",
+ "modified_by": "Administrator",
+ "module": "Pilotapp",
+ "name": "Article",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
